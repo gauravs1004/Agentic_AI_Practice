@@ -1,0 +1,15 @@
+curl "" \
+  -H 'Content-Type: application/json' \
+  -H 'X-goog-api-key: <>' \
+  -X POST \
+  -d '{
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Explain how AI works in a few words"
+          }
+        ]
+      }
+    ]
+  }'
